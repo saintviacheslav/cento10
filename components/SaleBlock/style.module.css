@@ -1,0 +1,25 @@
+.block {
+    background-color: rgba(255, 255, 255, 1);
+    /* padding: 18px 16px; */
+    border-radius: 10px;
+    max-width: 400px;
+
+    & img {
+        width: 368px;
+        height: 287px;
+        padding: 0px 16px;
+    }
+
+    & h1 {
+        font: 300 18px "Inter";
+        color: rgba(16, 16, 16, 1);
+        margin: 16px 0 24px;
+        padding: 0px 16px;
+    }
+
+    & p {
+        font: 500 16px "Inter";
+        color: rgba(119, 119, 119, 1);
+         padding: 0px 16px 18px 16px;
+    }
+}

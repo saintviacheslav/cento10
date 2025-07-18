@@ -1,0 +1,57 @@
+.block {
+    background-color: #000000;
+
+    border-radius: 10px;
+    max-width: 400px;
+    height: 465px;
+
+    & img {
+        width: 400px;
+        height: 195px;
+    }
+
+    & h1 {
+        font-family: Inter;
+        font-weight: 300;
+        font-style: Light;
+        font-size: 18px;
+        line-height: 160%;
+        letter-spacing: 1%;
+
+        color: rgb(255, 255, 255);
+        padding: 0 0 19px 27px;
+    }
+
+    & p {
+        font-family: Inter;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 160%;
+        letter-spacing: 0%;
+        padding: 24px 0 8px 27px;
+        color: rgb(255, 255, 255);
+    }
+
+    & h5 {
+        font-family: Inter;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 160%;
+        letter-spacing: 0%;
+        color: orange;
+        padding: 0 0 16px 27px;
+    }
+
+    & h6 {
+        color: white;
+        font-family: Inter;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 160%;
+        letter-spacing: 0%;
+        padding: 0 0 35px 27px;
+    }
+}
